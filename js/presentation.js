@@ -1,5 +1,10 @@
 (function() {
 
+  // $(document).on('click', 'button.create', function(){
+  //   var title = $('title-input').val();
+
+  // })
+
   
   $(document).on('click', 'button.start', function() {
     var name = $('#name-input').val();
@@ -7,6 +12,7 @@
     bl.gameRestart();
     $('#name-input').hide();
     $('.start').hide();
+    $('.create').hide();
     showQuestion();
     $('.answers').show();
     $('.question').show();

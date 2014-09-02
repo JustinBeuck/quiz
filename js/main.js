@@ -50,14 +50,14 @@
         id: 7, 
         question:"There are three basic failures that can happen in an engine: bad fuel mix, lack of compression and:",
         choices:["lack of exhaust","lack of water","lack of spark","lack of oil"],
-        answer: 2,
+        answer: 3,
         asked: 0,
         correct: 0 },
       { 
         id: 8, 
         question:"What is a turbocharger?",
         choices:["a set of gears that makes the wheels turn faster","a turbine that compresses the air traveling into the engine","an injector that delivers fuel to the engine faster","belt driven device that pressurizes air intake"],
-        answer: 3,
+        answer: 2,
         asked: 0,
         correct: 0 },
       { 

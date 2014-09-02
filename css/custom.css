@@ -1,3 +1,5 @@
+
+
 .win {
     display:none;
     font-size: 20px;
@@ -17,6 +19,7 @@ body {
 .large-6.columns {
   margin: auto;
 }
+
 .main {
   color: white;
   text-shadow: 2px 2px red;
@@ -60,6 +63,12 @@ body {
   text-align: center;
   font-size: 4rem;
   text-shadow: 2px 2px white;
+}
+
+.create {
+  background-color: #ffd709;
+  color: silver;
+  border-color: yellow;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
@@ -125,10 +134,6 @@ button:visited {
 .container {
   padding-top: 1em;
   margin-top: 1em;
-  border-top: 
-    solid
-    1px
-    #CCC;
 }
 
 button {
@@ -145,6 +150,7 @@ button {
   border-radius: 5px;
   transition: all 0.2s ;
   background-color: #c90b00;
+  border-color: red;
 }
 
 
@@ -153,7 +159,7 @@ button {
 }
 
 .btnLightBlue.btnPush {
-  box-shadow: 0px 5px 0px 0px #6d0600;
+  box-shadow: 0px 5px 0px 0px #A66615;
 }
 
 .btnOrange.btnPush {
