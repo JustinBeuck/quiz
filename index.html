@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quizzy | The Quizzining</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+    <div class="row main large">
+      <h1>Do you know anything about cars ?</h1>
+      <div class="large-6 columns" style="width: 150px;">
+        <input id="name-input" type="text" placeholder="Enter Name Here"/>
+        <button class="start button btnPush btnBlueGreen">Start Game!</button>
+        <button class="newgame button btnPush btnBlueGreen" style="display:none">New Game</button>
+      </div>
+    </div>
+    <div class="row main">
+      <div class="large-9 columns">
+      <div class="lose">
+                <img src="http://gifs.gifbin.com/072010/1277988662_mark-webber-crash.gif" />
+                <p>WRONG!!!!</p>
+            </div>
+            <div class="win">
+                <img src="http://media.giphy.com/media/4KU4lNElpi6t2/giphy.gif" />
+                <p class="blue">CORRECT!!!!</p>
+            </div>
+        <div class="large-10 large-centered columns">
+          <section>
+            <div class="question"></div>
+          </section>
+        </div>
+        <div class="large-10 large-centered columns">
+          <section>
+            <div class="answers" style="display:none">
+              <form action-"">
+                <table class="choices">
+                  <tr>
+                    <td>
+                      <label class="one"><input type="radio" name="answer" value="0"></label>
+                    </td>
+                    <td>
+                      <label class="two"><input type="radio" name="answer" value="1"></label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label class="three"><input type="radio" name="answer" value="2"></label>
+                    </td>
+                    <td>
+                      <label class="four"><input type="radio" name="answer" value="3"></label>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </div>
+          </section>
+          
+          <div class="large-10 large-centered columns">
+            <section>
+              <button class="submit success button btnPush btnBlueGreen" style="display:none">Submit</button>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row main large">
+      <div class="large-6 columns">
+        <div class="leaderboard">
+          <h1>High Scores</h1>
+        <ol class="place"></ol>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.3.3/css/foundation.css"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+  <script type="text/javascript" src="js/ut.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/presentation.js"></script>
+</body>
+</html>

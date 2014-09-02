@@ -1,0 +1,179 @@
+.win {
+    display:none;
+    font-size: 20px;
+    float: right;
+}
+
+.lose {
+    display: none;
+    font-size: 20px;
+}
+
+body {
+  background: url('../img/ferrari.jpeg') no-repeat; 
+  background-size: cover; 
+}
+
+.large-6.columns {
+  margin: auto;
+}
+.main {
+  color: white;
+  text-shadow: 2px 2px red;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  height: 300px;
+  opacity: .99;
+  background-image: url('http://www.123creative.com/2199-small/carbon-fiber-patterns-photoshop.jpg');
+}
+#name-input {
+  margin: auto;
+}
+.questions {
+  color:blue;
+}
+
+.answers {
+  color: white;
+  font-size: 20px;
+}
+.lose {
+  float: right
+}
+
+.choices {
+  width: 50%;
+}
+
+.main.large {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.main.large h1 {
+  color: black;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 2px white;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
+
+/*
+.fonts {
+  font-family: 'Josefin Slab', serif;
+}
+*/
+
+/*body {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+  background: #ececec;
+  overflow-y: scroll;
+}
+
+p {
+  margin-bottom: 0.5em;
+}*/
+
+button,
+button:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #00AE68;
+}
+
+.pageSubTitle {
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1em;
+  color: #222;
+}
+
+.articleTitle {
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1em;
+  color: #222;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.container {
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 
+    solid
+    1px
+    #CCC;
+}
+
+button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 50px;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  transition: all 0.2s ;
+  background-color: #c90b00;
+}
+
+
+.btnBlueGreen.btnPush {
+  box-shadow: 0px 5px 0px 0px #6d0600;
+}
+
+.btnLightBlue.btnPush {
+  box-shadow: 0px 5px 0px 0px #6d0600;
+}
+
+.btnOrange.btnPush {
+  box-shadow: 0px 5px 0px 0px #A66615;
+}
+
+.btnPurple.btnPush {
+  box-shadow: 0px 5px 0px 0px #6D184B;
+}
+
+.btnPush:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.btnBlueGreen.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #6d0600;
+}
+
+.btnLightBlue.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #6d0600;
+}
+
